@@ -163,3 +163,25 @@ The system now includes:
 - AI integration completed
 - Memory system active
 - Web interface added
+
+## Future Roadmap
+
+The current MVP validates the core architecture:
+
+Knowledge Base
+→ Retrieval
+→ Context Building
+→ AI Generation
+→ Session Memory
+
+Future versions may include:
+
+- Embedding-based retrieval
+- Semantic document search
+- Long-term memory
+- Conversation summarization
+- Knowledge management dashboard
+- Multi-user support
+- Analytics and monitoring
+
+The current implementation prioritizes simplicity and clarity over infrastructure complexity.

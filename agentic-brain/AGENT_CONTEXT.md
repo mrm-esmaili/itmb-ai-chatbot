@@ -156,3 +156,33 @@ The system is now fully end-to-end functional:
 - Context-aware processing
 - AI-generated response
 - Session memory support
+
+## Future Architecture
+
+Potential evolution path:
+
+Current:
+
+User
+→ Retrieval
+→ Prompt Builder
+→ AI
+→ Response
+
+Future:
+
+User
+→ Query Understanding
+→ Semantic Retrieval
+→ Context Ranking
+→ Memory Compression
+→ Prompt Builder
+→ AI
+→ Response
+
+Additional Future Components:
+
+- Embedding Service
+- Vector Database
+- Knowledge Editor
+- Monitoring Layer

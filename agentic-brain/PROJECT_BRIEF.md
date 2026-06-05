@@ -121,3 +121,18 @@ The system is now a fully functional AI assistant that:
 - Retrieves relevant company knowledge
 - Maintains conversation context
 - Generates AI-powered responses
+
+## Beyond MVP
+
+This project was intentionally scoped as an MVP.
+
+Future versions could evolve into a production-ready company knowledge platform with:
+
+- Advanced retrieval
+- Knowledge management dashboard
+- Semantic search
+- Long-term memory
+- Team collaboration tools
+- Analytics and monitoring
+
+The MVP validates the core architecture before investing in additional complexity.

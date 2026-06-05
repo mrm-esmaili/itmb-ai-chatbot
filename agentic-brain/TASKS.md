@@ -120,3 +120,40 @@ Future Enhancements
 - Admin panel for knowledge management
 - Multi-user support
 - Analytics dashboard
+
+## Future Roadmap
+
+### Phase 3.5
+
+- Improve chat UI and user experience
+- Add suggested and quick-start questions
+- Investigate response streaming
+- Expand knowledge base coverage
+- Add additional evaluation scenarios
+- Improve retrieval accuracy
+- Refine prompt quality and grounding
+
+### Phase 4
+
+- Embedding integration
+- Semantic retrieval
+- Document chunking
+
+### Phase 5
+
+- Long-term memory
+- Conversation summarization
+- Context compression
+
+### Phase 6
+
+- Admin dashboard
+- Knowledge management tools
+- User management
+
+### Phase 7
+
+- Analytics
+- Monitoring
+- Feedback collection
+- Continuous improvement workflow

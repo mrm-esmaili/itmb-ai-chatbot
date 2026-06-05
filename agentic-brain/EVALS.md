@@ -153,3 +153,16 @@ User refers to previous question
 
 Expected:
 System correctly resolves context from session memory.
+
+## Future Evaluation Areas
+
+The current evaluation focuses on correctness and memory.
+
+Future evaluations should include:
+
+- Retrieval relevance scoring
+- Hallucination rate measurement
+- Context utilization accuracy
+- Multi-turn conversation consistency
+- Response latency
+- Knowledge coverage

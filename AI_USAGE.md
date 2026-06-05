@@ -91,3 +91,24 @@ Human decisions:
 - Defining evaluation scenarios manually based on business logic
 - Ensuring UI does not introduce complexity into core architecture
 - RTL, Logo, FontVair simple polish
+
+## AI Usage Reflection
+
+Throughout the project, AI was primarily used as:
+
+- Planning assistant
+- Architecture reviewer
+- Documentation helper
+- Implementation advisor
+
+Key lesson:
+
+AI accelerated development, but architectural decisions, trade-offs and scope management remained human responsibilities.
+
+Examples of rejected AI suggestions:
+
+- Early embedding integration
+- Complex memory architecture
+- Additional frontend frameworks
+
+These ideas were intentionally postponed to keep the MVP focused and achievable within the project timeline.

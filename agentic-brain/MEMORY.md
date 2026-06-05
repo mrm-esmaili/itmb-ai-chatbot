@@ -156,3 +156,34 @@ Future Direction:
 - Memory summarization
 - Cross-session continuity
 - User-level persistent memory
+
+
+## Project Retrospective
+
+What worked well:
+
+- Service-based architecture
+- Separation of retrieval and generation
+- Incremental development approach
+- Documentation-first workflow
+
+Challenges:
+
+- Balancing simplicity and scalability
+- Defining memory boundaries
+- Managing context size
+
+Key Lessons:
+
+Retrieval quality often matters more than model quality.
+
+Memory management becomes increasingly important as conversations grow.
+
+A small and understandable architecture is often preferable to a complex system during MVP validation.
+
+Future Research Topics:
+
+- Semantic retrieval
+- Context compression
+- Memory summarization
+- Long-term memory design
