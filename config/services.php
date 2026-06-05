@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'arvan' => [
+        'key' => env('ARVAN_API_KEY'),
+        'model' => env('ARVAN_MODEL_NAME'),
+        'endpoint' => env('ARVAN_ENDPOINT'),
+    ],
+
 ];

@@ -59,3 +59,34 @@ Future Improvement:
 - Embedding-based retrieval
 - Semantic ranking
 - Chunk-based document processing
+
+## Memory Update - AI Integration Phase
+
+Decision:
+Integrated AI provider through abstraction layer.
+
+Reason:
+Avoid tight coupling with any single AI API provider.
+
+---
+
+Decision:
+Introduced PromptBuilder as a dedicated component.
+
+Reason:
+Separating prompt logic improves maintainability and testability.
+
+---
+
+Observation:
+Prompt structure has more impact on output quality than model selection in MVP stage.
+
+---
+
+Insight:
+AI must be constrained by retrieval context to prevent hallucination.
+
+---
+
+Risk Identified:
+Without strict prompt rules, model may generate non-grounded answers.

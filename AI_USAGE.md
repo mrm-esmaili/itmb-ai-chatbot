@@ -42,3 +42,20 @@ Human decisions:
 - Choosing simple retrieval instead of embeddings (for MVP scope)
 - Defining document structure (Markdown-based knowledge base)
 - Selecting lightweight PHP-based implementation
+
+## AI Usage Update - AI Integration Phase
+
+AI was heavily used in this phase for:
+
+- Designing prompt structure for consistent AI responses
+- Structuring AI service abstraction layer
+- Improving separation between retrieval and generation logic
+- Suggesting best practices for prompt engineering
+- Designing context injection strategy
+
+Human decisions:
+
+- Final selection of prompt format
+- Choosing AI provider abstraction instead of direct coupling
+- Defining response constraints (grounded answers only)
+- Preventing over-reliance on AI hallucination (AI Temperature=0.2)

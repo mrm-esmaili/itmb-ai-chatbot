@@ -68,3 +68,31 @@ User Question
 
 This is a simplified retrieval system designed for MVP validation.
 Future upgrades may include embeddings and vector search.
+
+## AI Layer Integrated
+
+The system now includes a full AI generation pipeline.
+
+### Current Architecture
+
+User Question  
+→ RetrievalService  
+→ Context Builder  
+→ Prompt Builder  
+→ AI Provider  
+→ Response
+
+---
+
+### AI Provider Role
+
+- Receives structured prompt
+- Generates response based on retrieved context
+- Must not rely on external knowledge beyond context
+
+---
+
+### Design Principle
+
+AI is treated as a "reasoning engine", not a knowledge source.
+Knowledge comes only from retrieval layer.

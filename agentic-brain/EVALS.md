@@ -46,3 +46,31 @@ If query is unrelated to documents:
 
 Expected:
 System should return low-relevance or empty context.
+
+## Evaluation Update - AI Integration
+
+The system is now fully testable end-to-end.
+
+---
+
+### Test 1
+What services does ITMB provide?
+
+Expected:
+AI should answer using retrieved context only.
+
+---
+
+### Test 2
+Explain pricing model.
+
+Expected:
+AI should generate structured explanation based on docs.
+
+---
+
+### Test 3
+What is Laravel?
+
+Expected:
+If not in context, AI should NOT hallucinate and should respond with limited knowledge behavior.
