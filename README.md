@@ -1,5 +1,26 @@
 # ITMB AI Knowledge Bot
 
+## Deployment
+
+The MVP has been deployed to a public server for evaluation purposes.
+
+### Environment
+
+- PHP 8.x
+- Laravel 12
+- Apache / Shared Hosting
+- Arvan AI API
+- Session-based memory
+
+### Access
+
+https://ai.itmb.ir
+
+## Screenshots
+
+screenshots/home.jpg
+screenshots/chat-example.jpg
+
 ## Overview
 
 This project is an AI-powered internal knowledge assistant designed for ITMB.
