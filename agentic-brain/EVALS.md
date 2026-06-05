@@ -9,3 +9,14 @@
 4. Can ITMB build custom software?
 
 5. What should happen if information is not available in the knowledge base?
+
+## Evaluation Update
+
+Test scenarios remain unchanged.
+
+However, system readiness is now aligned with implementation phase.
+
+Focus of upcoming implementation:
+- Retrieval correctness
+- Context quality
+- AI response grounding

@@ -12,3 +12,18 @@ Activities assisted by AI:
 * Retrieval and memory design ideas
 
 Final implementation decisions remain human-reviewed and manually selected.
+
+## AI Usage Update (Development Start)
+
+At this stage, AI was used to assist in:
+
+- Translating architecture design into Laravel structure
+- Suggesting service layer organization
+- Confirming separation of concerns in PHP/Laravel
+- Reviewing initial folder structure decisions
+
+Human decisions:
+
+- Final Laravel project initialization
+- Directory structure selection
+- Service-based architecture approach
