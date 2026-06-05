@@ -96,3 +96,35 @@ User Question
 
 AI is treated as a "reasoning engine", not a knowledge source.
 Knowledge comes only from retrieval layer.
+
+## Memory Layer Integrated
+
+The system now includes session-based memory.
+
+---
+
+### Updated Architecture
+
+User Question  
+→ Retrieval Service  
+→ Memory Service  
+→ Context Builder  
+→ Prompt Builder  
+→ AI Provider  
+→ Response
+
+---
+
+### Memory Behavior
+
+- Each session stores conversation history
+- Previous messages are injected into prompt
+- System can reference earlier user questions
+- Improves coherence in multi-turn conversations
+
+---
+
+### Design Principle
+
+Memory is short-term and session-based only.
+No persistent long-term memory is implemented in MVP.

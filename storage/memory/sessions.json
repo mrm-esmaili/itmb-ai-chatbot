@@ -1,0 +1,38 @@
+{
+    "session_1": [
+        {
+            "role": "user",
+            "content": "ITMB pricing?"
+        },
+        {
+            "role": "assistant",
+            "content": "..."
+        }
+    ],
+    "user1": [
+        {
+            "role": "user",
+            "content": "What is the price of timche?"
+        },
+        {
+            "role": "assistant",
+            "content": "The Timche subscription costs **$16 per month**."
+        },
+        {
+            "role": "user",
+            "content": "What is the price of timche?"
+        },
+        {
+            "role": "assistant",
+            "content": "The Timche subscription costs **$16 per month**."
+        },
+        {
+            "role": "user",
+            "content": "What is the price of timche?"
+        },
+        {
+            "role": "assistant",
+            "content": "The Timche subscription costs **$16 per month**."
+        }
+    ]
+}

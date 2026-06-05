@@ -59,3 +59,19 @@ Human decisions:
 - Choosing AI provider abstraction instead of direct coupling
 - Defining response constraints (grounded answers only)
 - Preventing over-reliance on AI hallucination (AI Temperature=0.2)
+
+## AI Usage Update - Memory System
+
+AI was used in this phase to:
+
+- Design session-based memory structure
+- Suggest approaches for conversation history storage
+- Improve prompt integration with chat history
+- Optimize balance between context window and memory size
+- Explore limitations of stateless AI systems
+
+Human decisions:
+
+- Choosing simple session-based memory (instead of long-term DB memory)
+- Limiting memory size for performance reasons
+- Defining what part of history should be injected into prompt

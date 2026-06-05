@@ -90,3 +90,39 @@ AI must be constrained by retrieval context to prevent hallucination.
 
 Risk Identified:
 Without strict prompt rules, model may generate non-grounded answers.
+
+## Memory System Design Notes
+
+Decision:
+Implemented session-based conversation memory.
+
+---
+
+Reason:
+AI models are stateless; memory is required to simulate continuity.
+
+---
+
+Implementation Detail:
+- Each session stores user/assistant message pairs
+- Recent messages are injected into prompt
+- Older messages may be trimmed to reduce token usage
+
+---
+
+Observation:
+Memory significantly improves response coherence in multi-turn interactions.
+
+---
+
+Limitation:
+- No long-term user profiling
+- No cross-session memory
+- Limited context window size
+
+---
+
+Future Improvement:
+- Memory summarization
+- Long-term memory storage
+- Context compression techniques

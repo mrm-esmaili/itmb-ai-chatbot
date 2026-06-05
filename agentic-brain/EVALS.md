@@ -74,3 +74,37 @@ What is Laravel?
 
 Expected:
 If not in context, AI should NOT hallucinate and should respond with limited knowledge behavior.
+
+## Evaluation Update - Memory System
+
+The system is now tested for multi-turn conversations.
+
+---
+
+### Test 1
+User: What services does ITMB provide?
+
+User: Explain pricing
+
+User: Can you repeat the services?
+
+Expected:
+System should maintain context and understand "repeat" refers to previous answer.
+
+---
+
+### Test 2
+User: Tell me about ITMB
+User: What about pricing?
+
+Expected:
+System should maintain company context across questions.
+
+---
+
+### Test 3
+User: random question
+User: follow-up question referring to previous answer
+
+Expected:
+System should correctly resolve references using memory.
