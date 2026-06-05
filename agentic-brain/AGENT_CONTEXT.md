@@ -46,3 +46,25 @@ Planned module structure:
 
 At this stage, no business logic has been implemented yet.
 Only structural setup is completed.
+
+## Retrieval Layer Implemented
+
+The system now includes a working retrieval layer.
+
+### Current Flow
+
+User Question  
+→ Controller  
+→ RetrievalService  
+→ Selected Documents (Context)
+
+### Retrieval Strategy (MVP)
+
+- File-based document storage (Markdown)
+- Keyword / similarity-based matching
+- Returns top relevant documents as context
+
+### Design Note
+
+This is a simplified retrieval system designed for MVP validation.
+Future upgrades may include embeddings and vector search.

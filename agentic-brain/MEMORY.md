@@ -37,3 +37,25 @@ Transitioning from design to implementation requires strict separation of servic
 
 Insight:
 Early architectural decisions will significantly affect AI system maintainability.
+
+## Memory Update - Retrieval Implementation
+
+Decision:
+Implemented file-based retrieval system using Markdown documents.
+
+Reason:
+Fast, transparent, and easy to debug during MVP phase.
+
+Observation:
+Retrieval quality directly impacts AI response quality.
+
+Insight:
+Even without AI integration, retrieval system defines final answer quality.
+
+Limitation Identified:
+Keyword-based matching is not semantically accurate.
+
+Future Improvement:
+- Embedding-based retrieval
+- Semantic ranking
+- Chunk-based document processing

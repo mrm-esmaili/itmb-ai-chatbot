@@ -27,3 +27,18 @@ Human decisions:
 - Final Laravel project initialization
 - Directory structure selection
 - Service-based architecture approach
+
+## AI Usage Update - Retrieval Design
+
+AI was used to assist in:
+
+- Designing document-based retrieval strategy
+- Suggesting simple keyword/similarity matching approaches for MVP
+- Structuring RetrievalService in Laravel
+- Improving separation between retrieval and AI generation layers
+
+Human decisions:
+
+- Choosing simple retrieval instead of embeddings (for MVP scope)
+- Defining document structure (Markdown-based knowledge base)
+- Selecting lightweight PHP-based implementation
