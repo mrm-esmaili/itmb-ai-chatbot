@@ -75,3 +75,19 @@ Human decisions:
 - Choosing simple session-based memory (instead of long-term DB memory)
 - Limiting memory size for performance reasons
 - Defining what part of history should be injected into prompt
+
+## AI Usage Update - UI & Evaluation Phase
+
+AI was used in this phase to:
+
+- Design simple chat UI structure (Blade + Bootstrap)
+- Suggest evaluation scenarios for system testing
+- Improve user interaction flow
+- Help structure end-to-end testing approach
+
+Human decisions:
+
+- Keeping UI minimal to focus on backend quality
+- Defining evaluation scenarios manually based on business logic
+- Ensuring UI does not introduce complexity into core architecture
+- RTL, Logo, FontVair simple polish

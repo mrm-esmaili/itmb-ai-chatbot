@@ -108,3 +108,48 @@ User: follow-up question referring to previous answer
 
 Expected:
 System should correctly resolve references using memory.
+
+## Final Evaluation Scenarios
+
+The system is evaluated end-to-end through UI.
+
+---
+
+### Test 1 - Knowledge Accuracy
+Q: What services does ITMB provide?
+
+Expected:
+Accurate response based on retrieved documents.
+
+---
+
+### Test 2 - Multi-turn Conversation
+Q1: Tell me about ITMB  
+Q2: What about pricing?
+
+Expected:
+System should maintain context across UI interactions.
+
+---
+
+### Test 3 - Unknown Query Handling
+Q: What is quantum computing?
+
+Expected:
+System should avoid hallucination and respond based on knowledge base limitations.
+
+---
+
+### Test 4 - UI Interaction
+User interacts via web interface
+
+Expected:
+Smooth chat experience with consistent responses.
+
+---
+
+### Test 5 - Memory Validation
+User refers to previous question
+
+Expected:
+System correctly resolves context from session memory.

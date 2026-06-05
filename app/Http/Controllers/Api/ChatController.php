@@ -34,7 +34,6 @@ class ChatController extends Controller
         $memory->addMessage($sessionId, 'assistant', $answer);
 
         return response()->json([
-            'prompt' => $prompt,
             'answer' => $answer
         ]);
     }
