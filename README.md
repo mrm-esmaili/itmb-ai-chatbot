@@ -18,7 +18,8 @@ https://ai.itmb.ir
 
 ## Screenshots
 
-screenshots/home.jpg
+![صفحه اصلی](screenshots/home.jpg)
+![نمونه چت](screenshots/chat-example.jpg)
 screenshots/chat-example.jpg
 
 ## Overview
